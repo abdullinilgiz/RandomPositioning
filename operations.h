@@ -2,14 +2,9 @@
 
 #include <fstream>
 #include <vector>
+#include "mylibr.h"
 
 using namespace std;
-
-struct Particle{
-    double x;
-    double y;
-    double z;
-};
 
 double DotP(Particle l, Particle r);
 
